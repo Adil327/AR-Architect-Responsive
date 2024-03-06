@@ -1,5 +1,7 @@
 header {
     z-index: 100;
+    font-size: 1.1em;
+    letter-spacing: 3px;
 }
 
 #hero-section {
@@ -12,11 +14,13 @@ header {
 
 #br-text {
     padding: 8px 20px;
+    letter-spacing: 3px;
     background-color: rgba(0, 0, 0, 0.75);
 }
 
 #a-text {
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    font-weight: 400;
 }
 
 #projects-section .card {
