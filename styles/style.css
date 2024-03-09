@@ -1,7 +1,16 @@
+body {
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+}
+
 header {
     z-index: 100;
     font-size: 1.1em;
     letter-spacing: 3px;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.3);
+}
+
+header button {
+    z-index: 1000;
 }
 
 #hero-section {
@@ -13,14 +22,18 @@ header {
 }
 
 #br-text {
-    padding: 8px 20px;
+    padding: 10px 14px;
     letter-spacing: 3px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.2);
     background-color: rgba(0, 0, 0, 0.75);
 }
 
 #a-text {
-    letter-spacing: 3px;
-    font-weight: 400;
+    letter-spacing: 4px;
+    font-size: 2.1rem;
+    font-weight: 300;
 }
 
 #projects-section .card {
@@ -29,4 +42,8 @@ header {
 
 #about-section img {
     filter: grayscale(70%);
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
