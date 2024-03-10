@@ -4,4 +4,4 @@ I acknowleged and accepted your invitation with necessary instruction.
 
 Form tomorrow morning, I will start working on this project.
 
-Project will be deliver upto 10pm today.
+Project will be deliver 10pm today.
