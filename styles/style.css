@@ -37,7 +37,7 @@ header button {
 }
 
 h4 .shadow {
-    box-shadow: 0px 4px 8px 0px rgb(0, 0, 0.2);
+    text-shadow: 0px 4px 8px 0px rgb(0, 0, 0.2);
 }
 
 #projects-section .card {
@@ -48,35 +48,41 @@ h4 .shadow {
     filter: grayscale(70%);
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
-
 .row i {
     font-size: 2rem;
-    float: right;
-    text-decoration: none;
-    color: #075E54;
 }
 
-
-#social-div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-#box2 span {
-    display: inline-block
+.row i:hover {
+    font-size: 2.3rem;
+    transition: 0.3s;
 }
 
 #box2 span a {
     margin: 0 1rem;
+    float: right;
+}
+
+@media screen and (max-width:768px) {
+    #box2 span a {
+        float: none;
+    }
+
+    #social #box2 {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width:991px) {
+    #social button {
+        width: 146px;
+    }
 }
 
 #box2 span .fa-square-twitter {
     color: #1DA1F2;
-
     border-radius: 5px;
 }
 
@@ -96,8 +102,10 @@ h4 .shadow {
     color: #128C7E;
 }
 
-
-
 footer a {
     color: #fff;
+}
+
+footer a:hover {
+    font-size: 1.1rem;
 }

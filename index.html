@@ -11,6 +11,10 @@
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/afcfb484c6.js" crossorigin="anonymous"></script>
 
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|fire-animation
+">
+
   <!-- Custom CSS -->
   <link rel="stylesheet" href="styles/style.css">
   <title>BR Architects (Responsive)</title>
@@ -22,7 +26,8 @@
   <header class="position-sticky top-0">
     <nav class="navbar navbar-expand-md bg-white">
       <div class="container-fluid">
-        <a class="navbar-brand ms-3 border-0 width-auto" href="index.html"><strong>BR</strong>
+        <a class="navbar-brand ms-3 border-0 width-auto font-effect-fire-animation"
+          href="index.html"><strong>BR</strong>
           Architects</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -142,7 +147,6 @@
                 href="john.html">
                 <h4 class="mb-0 mt-3">John Doe</h4>
               </a>
-
               <p class="text-secondary my-3">CEO &amp; Founder</p>
               <p>Phaseluss eget enim eu lectus faucibus vestibulum. Suspenisse sodale pellentesque elementum.</p>
               <button class="btn btn-light rounded-0">Contact</button>
@@ -198,7 +202,6 @@
             <p>Lets get in touch and talk about your next Project.</p>
           </div>
         </div>
-
         <div class="row mt-3">
           <form>
             <div class="col-12 mb-3">
@@ -213,32 +216,40 @@
             <div class="col-12 mb-3">
               <input type="text" name="comment" class="form-control rounded-0" placeholder="Comment">
             </div>
-            <div class="col-12" id="social-div">
-              <div id="box">
-                <button class="btn btn-dark rounded-0">Send Message</button>
-              </div>
-              <div id="box2">
-                <span>
-                  <a href="contact-section"><i class="fa-brands fa-square-twitter"></i></a>
-                </span>
-                <span>
-                  <a href="contact-section"><i class="fa-brands fa-square-facebook"></i></a>
-                </span>
-                <span>
-                  <a href="contact-section"><i class="fa-brands fa-facebook-messenger"></i></a>
-                </span>
-                <span>
-                  <a href="contact-section"><i class="fa-brands fa-square-youtube"></i></a>
-                </span>
-                <span>
-                  <a href="contact-section"><i class="fa-brands fa-square-whatsapp"></i></i></a>
-                </span>
-              </div>
+            <div class="row">
             </div>
           </form>
         </div>
+
+        <!-- Social-Div -->
+        <div class="row mt-3" id="social">
+          <div class="col-12 col-md-6 mb-3 mb-lg-0" id="box">
+            <span>
+              <button class="btn btn-dark rounded-0 col-12 col-md-6">Send Message</button>
+            </span>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6" id="box2">
+            <span>
+              <a href="contact-section"><i class="fa-brands fa-square-twitter"></i></a>
+            </span>
+            <span>
+              <a href="contact-section"><i class="fa-brands fa-square-facebook"></i></a>
+            </span>
+            <span>
+              <a href="contact-section"><i class="fa-brands fa-facebook-messenger"></i></a>
+            </span>
+            <span>
+              <a href="contact-section"><i class="fa-brands fa-square-youtube"></i></a>
+            </span>
+            <span>
+              <a href="contact-section"><i class="fa-brands fa-square-whatsapp"></i></i></a>
+            </span>
+          </div>
+        </div>
       </div>
     </div>
+
+    <!-- Map Section -->
     <div class="container">
       <div class="row">
         <div class="col">
@@ -247,6 +258,8 @@
       </div>
     </div>
   </main>
+
+  <!-- Footer Section -->
   <footer class="bg-black py-4 mt-2">
     <div class="container">
       <div class="row">
